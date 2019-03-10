@@ -1,4 +1,4 @@
-package com.realtimeos.displayhall;
+package libaries.alienization.com.alienlibraries;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -17,10 +17,10 @@ import static org.junit.Assert.*;
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     @Test
-    public void useAppContext() {
+    public void useAppContext() throws Exception {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.realtimeos.displayhall", appContext.getPackageName());
+        assertEquals("libaries.alienization.com.alienlibraries", appContext.getPackageName());
     }
 }
